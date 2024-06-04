@@ -21,7 +21,7 @@ function CategoryDetail() {
     );
 
     return (
-        <div>
+        <div style={{marginTop:'90px'}}>
             <h1 className="page-header">Category : {getCategoryDataByIdMemo?.cat_title}</h1>
 
             {getCategoryDataByIdMemo?.posts?.map((singlePost) => {

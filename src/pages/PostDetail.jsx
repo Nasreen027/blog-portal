@@ -23,7 +23,7 @@ function PostDetail() {
     // console.log({getPostByIdDataMemo},'getPostByIdDataMemo');
 
     return (
-        <div>
+        <div style={{marginTop:'90px'}}>
             <h1>{getPostByIdDataMemo?.post_title}</h1>
 
             <p className="lead">
