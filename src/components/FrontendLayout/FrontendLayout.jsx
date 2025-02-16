@@ -106,7 +106,7 @@ function FrontendLayout() {
         </div>
       </nav>
 
-      <div className="container">
+      <div className="container marginFix">
         <div className="row outlet">
           <div className="col-md-8">
             <Outlet />
